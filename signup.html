@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <p>
+            <a href="index.html">Home</a>
+        </p>
+    </div>
+
+    <div>
+        <p>
+            <a href="login.html">Login</a>
+        </p>
+    </div>
+
+    <div>
+        <p>
+            <a href="forgotpw.html">Forgot Password</a>
+        </p>
+    </div>
+
+    <div>
+        <p>
+            <a href="signup.html">Register Account</a>
+        </p>
+    </div>
+
+    <div>
+        <p>
+            <a href="dashboard.html">Dashboard</a>
+        </p>
+    </div>
+
+    <div>
+        <p>
+            <a href="userprofile.html">User Profile</a> 
+        </p>
+    </div>
+    
+    <form>
+       <p>
+        <u><b>REGISTER ACCOUNT</b></u>
+       </p>
+       <hr />
+       <p>
+        <b>First Name:</b>
+        <input type="text" name="First Name" size="40" maxlength="50"/>
+        </p>
+        <p>
+          <b>Last Name:</b>
+        <input type="text" name="Last Name" size="40" maxlength="50"/>
+        </p>
+        <hr />
+        <p>
+            <b>Gender:</b>
+            <input type="radio" name="Gender" value="male"checked/>Male
+            <input type="radio" name="Gender" value="female"/>Female
+        </p>
+        <hr />
+        <p>
+            <b>Address:</b>
+            <input type="text" name="Address" size="40" maxlength="50"/>
+        </p>
+        <p>
+            <b>Province:</b>
+            <select name="Province">
+                <option value="Sindh">Sindh</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Balochistan" selected>Balochistan</option>
+                <option value="KPK">KPK</option>
+                <option value="Azad Kashmir">Azad Kashmir</option>
+            </select>
+        </p>
+        <p>
+            <b>City:</b>
+            <select name="City">
+                <option value="Karachi">Karachi</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Quetta" selected>Quetta</option>
+                <option value="Peshawar">Peshawar</option>
+                <option value="Kashmir">Kashmir</option>
+            </select>
+        </p>
+        <hr />
+        <p>
+            <b>Education:</b>
+            <br />
+            <input type="checkbox" name="Education" value="SSC"checked/>SSC
+            <input type="checkbox" name="Education" value="HSC"/>HSC
+            <input type="checkbox" name="Education" value="Bachelors"/>Bachelors
+            <input type="checkbox" name="Education" value="Masters"/>Masters
+        </p>
+        <hr />
+        <p>
+            <b>Cities you Visited:</b> (You can select more than one option by holding down control key)
+        </p>
+            <select name="Cities you Visited" size="3" multiple="multiple">
+                <option value="Karachi">Karachi</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Quetta">Quetta</option>
+                <option value="Peshawar">Peshawar</option>
+                <option value="Kashmir">Kashmir</option>
+            </select>
+    
+        <hr />
+        <p> <b>Hobbies:</b> </p>
+            <textarea name="Hobbies" cols="50" rows="5" 
+            placeholder="Your Hobbies: like what you want to do in your leisure time"></textarea>
+            <br />
+            
+        <button type="submit">Submit</button> <br />
+    </form>
+
+</body>
+</html>
